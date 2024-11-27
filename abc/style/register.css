@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.box-item {
+    width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.data-item {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.input-box .data-item{
+    position: absolute;
+    top: 30%;
+    left: 180px;
+}
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    top: 20%;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+}
+#Re_enter_the_password{
+    white-space: nowrap;
+}
